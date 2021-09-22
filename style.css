@@ -1,0 +1,25 @@
+#header {
+    font-size: 42px;
+    font-family: cursive;
+    text-align: center;
+    margin: 0px;
+    padding: 10px;
+    color: #3f22a7;
+
+}
+
+#recepies-list {
+    margin-top: 100px;
+    font-size: 30px;
+    text-indent: 10px;
+    line-height: 2;
+}
+
+.red-hover:hover {
+    color:red;
+}
+
+img {
+    width: 400px;
+    height: auto;
+}
