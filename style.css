@@ -1,11 +1,32 @@
 #header {
-    font-size: 42px;
-    font-family: cursive;
+    font-size: 50px;
+    font-family: Georgia, "Times New Roman", serif;
     text-align: center;
     margin: 0px;
     padding: 10px;
     color: #3f22a7;
+    text-shadow: 5px 5px 5px #3f22a76b;
+}
 
+#header a {
+    text-decoration: none;
+    color: #3f22a7;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p, ul, ol {
+    font-size: 20px;
+}
+
+h1, h2, h3, h4, p, ul, ol {
+    font-family: 'Times New Roman', Times, serif;
 }
 
 #recepies-list {
@@ -15,11 +36,29 @@
     line-height: 2;
 }
 
-.red-hover:hover {
-    color:red;
+#recepies-list a {
+    text-decoration: none;
+}
+
+#recepies-list a:hover {
+    color: violet;
+    position: absolute;
+    font-size: 110%;
+    text-indent: 0px;
 }
 
 img {
     width: 400px;
     height: auto;
+    border-radius: 10%;
+    box-shadow: 10px 10px 10px gray;
+}
+
+body {
+    width: 900px;
+    margin: 30px auto;
+}
+
+html {
+    background-color: mintcream;
 }
