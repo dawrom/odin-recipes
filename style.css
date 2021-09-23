@@ -1,6 +1,15 @@
+@font-face {
+    font-family: 'after_shokregular';
+    src: url('fonts/after_shok-webfont.woff2') format('woff2'),
+         url('fonts/after_shok-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 #header {
     font-size: 50px;
-    font-family: Georgia, "Times New Roman", serif;
+    font-family: after_shokregular, Georgia, "Times New Roman", serif;
     text-align: center;
     margin: 0px;
     padding: 10px;
